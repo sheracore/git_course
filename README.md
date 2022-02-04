@@ -1,6 +1,5 @@
 ## GIT
-
-
+  
 ```
 git init
 git log
