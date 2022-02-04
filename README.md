@@ -61,34 +61,29 @@ git push origin --tags
 git checkout v1.9
 ```
 
+## gpg in git
+```
+gpg == pgp(pretty goog privacy)
+gpg --gen-key
+gpg --list-keys
 
+---> git global configs <---
+git config --global user.email m.ghaffari662@gmail.com(Set)
+git config --global user.email (Get)
+git config --global user.user sheracore (Set)
+git config --global user.user (Get)
+git config --global user.signingKey (Get)
+gpg --list-secret-keys --keyid-format LONG
+git config --global user.signingKey 3641F435FB392F28(Set)
+git tag -s v2.0 -m "This ME who is releasing version 2.0" (To sign this)
+git show v2.1
+git tag -v v2.1(To verify this tag is belong to me(sheracore) this is decrypted just by my publick key)
+git commit -S -m 'blablabla'(To sign my commit)
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Git blame
+```
+git blame test -L2
+git bisect start
+git bisect bad
+```
