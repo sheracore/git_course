@@ -40,8 +40,44 @@ git merge Addfunc (Bring new files and file modefied from Addfunc branch to mast
 git clone [http url from github or gitlab ](This is uses instead of git init)
 git push origin master
 git pull origin master
-
 ```
+
+## Git remote
+```
+git remote add origin_test http://github.com/test-repo
+git remote
+git remote -v
+git push origin_test master
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
