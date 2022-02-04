@@ -38,8 +38,12 @@ git merge Addfunc (Bring new files and file modefied from Addfunc branch to mast
 ## Git clone
 ```
 git clone [http url from github or gitlab ](This is uses instead of git init)
+git push origin master
+git pull origin master
 
 ```
+
+
 
 
 
