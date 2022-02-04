@@ -35,7 +35,11 @@ git checkout master
 git merge Addfunc (Bring new files and file modefied from Addfunc branch to master)
 ```
 
+## Git clone
+```
+git clone [http url from github or gitlab ](This is uses instead of git init)
 
+```
 
 
 
