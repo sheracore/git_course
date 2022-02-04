@@ -4,6 +4,7 @@
 ```
 git init
 git log
+git show 09021388d15127b9e14c9efc4836e157c158772
 git diff HEAD
 git diff --staged
 git reset test.py
@@ -50,7 +51,15 @@ git remote -v
 git push origin_test master
 ```
 
-
+## Git Tag
+```
+git tag -a v2.0 -m 'First version with tag. this is what we are running for a long time'
+git tag -a v2.0 4b1b6559e92848dbc5
+git push origin v2.0 (To push your tags)
+or
+git push origin --tags
+git checkout v1.9
+```
 
 
 
